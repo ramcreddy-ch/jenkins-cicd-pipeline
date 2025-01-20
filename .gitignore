@@ -1,7 +1,23 @@
-target/
-*.class
-*.jar
-*.war
-.idea/
-.vscode/
+# Binaries
+*.exe
+*.dll
+*.so
+*.db
 *.log
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+__pycache__/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
