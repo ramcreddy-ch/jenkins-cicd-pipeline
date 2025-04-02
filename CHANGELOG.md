@@ -7,3 +7,4 @@
 - Enhance error handling (2025-10-13 10:05:00)
 - Update documentation style (2025-2-22 14:15:00)
 - Refactor variable names (2025-10-1 11:25:00)
+- Improve logging verbosity (2025-4-2 15:35:00)
