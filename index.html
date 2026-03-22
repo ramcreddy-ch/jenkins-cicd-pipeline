@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ramchandra Reddy — Senior DevSecOps &amp; Platform Engineer. Building scalable, secure, production-grade cloud-native and AI platforms." />
+  <meta property="og:title" content="Ramchandra Reddy | Senior DevSecOps &amp; Platform Engineer" />
+  <meta property="og:description" content="Building scalable, secure, production-grade cloud-native and AI platforms." />
+  <meta property="og:type" content="website" />
+  <title>Ramchandra Reddy | Senior DevSecOps &amp; Platform Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar">
+  <div class="nav-brand"><span>&lt;</span>ramcreddy<span>/&gt;</span></div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#how-i-build">How I Build</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#repos">Repos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== Hero ===== -->
+<section id="home">
+  <div class="hero-content">
+    <p class="hero-greeting">Hello, world. I'm</p>
+    <h1 class="hero-name">Ramchandra Reddy</h1>
+    <p class="hero-title">Senior DevSecOps &amp; Platform Engineer</p>
+    <p class="hero-tagline">
+      Building scalable, secure, production-grade cloud-native and AI platforms —
+      from bare-metal Kubernetes to multi-cloud ML inference at scale.
+    </p>
+    <div class="hero-skills">
+      <span class="skill-badge">Kubernetes</span>
+      <span class="skill-badge">AWS</span>
+      <span class="skill-badge">Azure</span>
+      <span class="skill-badge">Terraform</span>
+      <span class="skill-badge">Kafka</span>
+      <span class="skill-badge">MLOps</span>
+      <span class="skill-badge">GitOps</span>
+      <span class="skill-badge">ArgoCD</span>
+      <span class="skill-badge">Helm</span>
+      <span class="skill-badge">Jenkins</span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#projects">View Projects</a>
+      <a class="btn btn-outline" href="#contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section id="about">
+  <p class="section-label">// about me</p>
+  <h2 class="section-title">The Engineer Behind the Pipes</h2>
+  <div class="section-divider"></div>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        I'm a <strong>Senior DevSecOps &amp; Platform Engineer</strong> with deep hands-on experience designing and operating
+        production infrastructure that handles real traffic, real failures, and real cost pressure.
+      </p>
+      <p>
+        My work lives at the intersection of <strong>Kubernetes platform engineering</strong>, <strong>cloud-native security</strong>,
+        and <strong>MLOps</strong>. I don't just automate deployments — I build the <em>platforms</em> that let engineering
+        teams ship faster, safer, and cheaper.
+      </p>
+      <p>
+        I've architected multi-cluster Kubernetes environments on EKS and AKS, built GitOps-driven delivery pipelines,
+        hardened CI/CD supply chains, and designed Kafka-powered data platforms — all with an obsession for
+        <strong>observability, reliability, and zero-trust security</strong>.
+      </p>
+      <p>
+        Outside the terminal, I contribute to open-source tooling, enjoy breaking (and then fixing) distributed systems,
+        and believe that <strong>good infrastructure is invisible</strong> — it just works.
+      </p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-number">6+</div>
+        <div class="stat-label">Years in Production Infra</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">15+</div>
+        <div class="stat-label">Cloud-Native Projects</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">99.9%</div>
+        <div class="stat-label">Uptime SLA Delivered</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">40%</div>
+        <div class="stat-label">Avg Cloud Cost Reduction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Experience ===== -->
+<section id="experience">
+  <p class="section-label">// experience</p>
+  <h2 class="section-title">Systems I've Built &amp; Operated</h2>
+  <div class="section-divider"></div>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">Senior Platform Engineer</span>
+        <span class="timeline-company">@ Enterprise Cloud Platform</span>
+        <span class="timeline-period">2023 – Present</span>
+      </div>
+      <div class="timeline-body">
+        <ul>
+          <li>Designed and operated a multi-tenant EKS platform serving 50+ microservices with Karpenter-based autoscaling, cutting idle compute cost by 38%.</li>
+          <li>Built a GitOps delivery framework using ArgoCD + Helm, reducing deployment lead time from 2 days to under 30 minutes.</li>
+          <li>Implemented OPA-based admission control and Falco runtime security, achieving SOC2 compliance across all workloads.</li>
+          <li>Architected a centralized observability stack (Prometheus, Thanos, Grafana, Loki) ingesting 2M+ metrics/min across clusters.</li>
+          <li>Led Kafka cluster migration to MSK with zero downtime, supporting 500K events/second throughput.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">DevSecOps Engineer</span>
+        <span class="timeline-company">@ FinTech Product Company</span>
+        <span class="timeline-period">2021 – 2023</span>
+      </div>
+      <div class="timeline-body">
+        <ul>
+          <li>Rebuilt legacy Jenkins pipelines into a modular, shared-library CI/CD system with integrated SAST (SonarQube), SCA (Trivy), and artifact signing.</li>
+          <li>Automated infrastructure provisioning for 3 AWS regions using Terraform modules and Atlantis for PR-based plan/apply workflows.</li>
+          <li>Deployed and managed an MLOps platform on Kubernetes (Kubeflow + MLflow), reducing model-to-production time from weeks to hours.</li>
+          <li>Enforced secrets management via HashiCorp Vault with dynamic credentials, eliminating static secrets from all CI pipelines.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">Cloud Infrastructure Engineer</span>
+        <span class="timeline-company">@ SaaS Startup</span>
+        <span class="timeline-period">2019 – 2021</span>
+      </div>
+      <div class="timeline-body">
+        <ul>
+          <li>Migrated monolithic application to containerized microservices on AKS, achieving independent scaling and a 3× reduction in release cycle.</li>
+          <li>Built Terraform-based IaC foundation (VPC, RDS, EKS, IAM) enabling repeatable, auditable environments across dev/staging/prod.</li>
+          <li>Introduced blue-green and canary deployment strategies using Argo Rollouts, cutting production incidents during releases by 70%.</li>
+          <li>Established cost governance with AWS Cost Explorer + custom tagging strategy, reducing monthly bill by $18K/month.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects">
+  <p class="section-label">// projects</p>
+  <h2 class="section-title">What I've Actually Built</h2>
+  <div class="section-divider"></div>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-icon">🔐</div>
+      <h3 class="project-name">End-to-End DevSecOps Pipeline</h3>
+      <p class="project-problem">Problem: Slow, insecure releases with no supply-chain visibility</p>
+      <p class="project-desc">
+        Designed a fully automated CI/CD pipeline integrating security at every stage — code scanning (SonarQube),
+        dependency auditing (OWASP), container image scanning (Trivy), artifact signing (Cosign), and
+        policy enforcement (OPA Gatekeeper). Deployed via Jenkins shared libraries with GitOps promotion to AKS.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Jenkins</span>
+        <span class="tag">SonarQube</span>
+        <span class="tag">Trivy</span>
+        <span class="tag">Cosign</span>
+        <span class="tag">OPA</span>
+        <span class="tag">ArgoCD</span>
+        <span class="tag">AKS</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: 90% reduction in critical CVEs reaching production; deployment frequency ×4</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">⚡</div>
+      <h3 class="project-name">EKS + KEDA + Karpenter Auto-Scaling Platform</h3>
+      <p class="project-problem">Problem: Over-provisioned clusters with unpredictable load spikes</p>
+      <p class="project-desc">
+        Architected an event-driven auto-scaling solution on EKS using KEDA for workload-level scaling (Kafka lag,
+        SQS queue depth) and Karpenter for just-in-time node provisioning with Spot instance optimization.
+        Implemented topology spread constraints and pod disruption budgets for high availability during scale events.
+      </p>
+      <div class="project-tags">
+        <span class="tag">EKS</span>
+        <span class="tag">KEDA</span>
+        <span class="tag">Karpenter</span>
+        <span class="tag">Spot</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">Prometheus</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: 38% compute cost reduction; sub-60s scale-out response to traffic spikes</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🤖</div>
+      <h3 class="project-name">MLOps Platform on Kubernetes</h3>
+      <p class="project-problem">Problem: Data scientists shipping models via Jupyter notebooks with no governance</p>
+      <p class="project-desc">
+        Built a production MLOps platform on EKS combining Kubeflow Pipelines for orchestration, MLflow for experiment
+        tracking and model registry, and Seldon Core for model serving at scale. Integrated GPU node pools with
+        time-slicing for cost-efficient inference. Pipelines triggered via Git events with full lineage tracking.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Kubeflow</span>
+        <span class="tag">MLflow</span>
+        <span class="tag">Seldon</span>
+        <span class="tag">EKS</span>
+        <span class="tag">GPU</span>
+        <span class="tag">ArgoCD</span>
+        <span class="tag">MinIO</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: Model-to-production time reduced from 3 weeks to under 4 hours</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">📡</div>
+      <h3 class="project-name">Kafka Real-Time Streaming Platform</h3>
+      <p class="project-problem">Problem: Batch ETL pipelines causing 4-hour data latency in analytics</p>
+      <p class="project-desc">
+        Designed and deployed a Kafka-based streaming platform on MSK handling 500K events/second from 20+ producer
+        services. Built Kafka Connect pipelines for CDC from PostgreSQL into the data lake (S3 + Delta Lake).
+        Implemented schema registry enforcement, consumer lag alerting, and DLQ patterns for fault tolerance.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Kafka</span>
+        <span class="tag">MSK</span>
+        <span class="tag">Kafka Connect</span>
+        <span class="tag">Schema Registry</span>
+        <span class="tag">Delta Lake</span>
+        <span class="tag">Terraform</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: Data latency reduced from 4 hours to under 30 seconds</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🌐</div>
+      <h3 class="project-name">Multi-Cloud GitOps Platform</h3>
+      <p class="project-problem">Problem: Inconsistent environments across AWS and Azure with manual drift</p>
+      <p class="project-desc">
+        Built a unified GitOps platform spanning AWS EKS and Azure AKS using ArgoCD ApplicationSets and Terraform
+        Cloud workspaces. Enforced environment parity with Conftest policies, automated drift detection, and
+        PR-based infrastructure promotion workflows. Vault used as the single secret store across both clouds.
+      </p>
+      <div class="project-tags">
+        <span class="tag">ArgoCD</span>
+        <span class="tag">Terraform</span>
+        <span class="tag">EKS</span>
+        <span class="tag">AKS</span>
+        <span class="tag">Vault</span>
+        <span class="tag">Conftest</span>
+        <span class="tag">GitHub Actions</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: Config drift incidents eliminated; 100% reproducible environments</p>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon">🔍</div>
+      <h3 class="project-name">Centralized Observability Stack</h3>
+      <p class="project-problem">Problem: Siloed logs and metrics with no cross-cluster correlation</p>
+      <p class="project-desc">
+        Deployed a production-grade observability platform with Prometheus + Thanos for long-term metrics federation,
+        Grafana for dashboards, Loki + Promtail for log aggregation, and Tempo for distributed tracing.
+        Built SLO/SLA dashboards, automated alerting runbooks, and on-call rotation tooling.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Prometheus</span>
+        <span class="tag">Thanos</span>
+        <span class="tag">Grafana</span>
+        <span class="tag">Loki</span>
+        <span class="tag">Tempo</span>
+        <span class="tag">OpenTelemetry</span>
+      </div>
+      <p class="project-outcome">✅ Outcome: MTTR reduced by 65%; proactive alerting catches 80% of issues before user impact</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== How I Build Systems ===== -->
+<section id="how-i-build">
+  <p class="section-label">// architecture</p>
+  <h2 class="section-title">How I Build Systems</h2>
+  <div class="section-divider"></div>
+
+  <div class="architecture-grid">
+
+    <div class="arch-block">
+      <div class="arch-block-icon">🏗️</div>
+      <h3 class="arch-block-title">Infrastructure as Code, Always</h3>
+      <p class="arch-block-desc">
+        Every resource is declared in Terraform or Pulumi. Environments are disposable and reproducible.
+        Modules are versioned, reviewed, and tested before promotion. No click-ops in production.
+      </p>
+    </div>
+
+    <div class="arch-block">
+      <div class="arch-block-icon">🔄</div>
+      <h3 class="arch-block-title">GitOps-First Delivery</h3>
+      <p class="arch-block-desc">
+        Git is the single source of truth for cluster state. ArgoCD reconciles continuously.
+        Deployments are PR-driven with automated rollback on SLO breach — no manual kubectl in prod.
+      </p>
+    </div>
+
+    <div class="arch-block">
+      <div class="arch-block-icon">🔐</div>
+      <h3 class="arch-block-title">Security Baked In, Not Bolted On</h3>
+      <p class="arch-block-desc">
+        Shift-left security: SAST, SCA, and image scanning in CI. OPA/Gatekeeper enforces policy at admission.
+        Zero-trust networking with mTLS (Istio/Linkerd). Vault for dynamic secrets — no static credentials anywhere.
+      </p>
+    </div>
+
+    <div class="arch-block">
+      <div class="arch-block-icon">📊</div>
+      <h3 class="arch-block-title">Observe Before You Operate</h3>
+      <p class="arch-block-desc">
+        Metrics, logs, and traces are non-negotiable from day one. SLOs are defined before launch.
+        Alerts are actionable, not noisy. Every runbook is codified and linked from the alert.
+      </p>
+    </div>
+
+    <div class="arch-block">
+      <div class="arch-block-icon">⚙️</div>
+      <h3 class="arch-block-title">Platform Thinking</h3>
+      <p class="arch-block-desc">
+        I build <em>platforms</em>, not snowflakes. Self-service templates, golden paths, and guardrails
+        let product teams move fast without breaking things. The platform team is a product team.
+      </p>
+    </div>
+
+    <div class="arch-block">
+      <div class="arch-block-icon">🤖</div>
+      <h3 class="arch-block-title">MLOps as a First-Class Discipline</h3>
+      <p class="arch-block-desc">
+        Models are software. They need versioning, testing, staged rollouts, monitoring, and rollback.
+        I bring the same rigor to ML pipelines as to any other production workload — feature stores,
+        model registries, drift detection, and A/B serving included.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="arch-flow">
+    <p class="flow-title">// DevSecOps + MLOps Reference Flow</p>
+    <div class="flow-line">
+      <span class="flow-step">Code Commit</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">CI (Jenkins / GH Actions)</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">SAST + SCA + Image Scan</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">Artifact Sign (Cosign)</span>
+    </div>
+    <div class="flow-line" style="margin-top:0.5rem">
+      <span class="flow-arrow" style="padding-left:1rem">↓</span>
+    </div>
+    <div class="flow-line">
+      <span class="flow-step">GitOps Promotion (ArgoCD)</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">OPA Policy Gate</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">Canary Deploy (Argo Rollouts)</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">SLO Validation</span>
+    </div>
+    <div class="flow-line" style="margin-top:0.5rem">
+      <span class="flow-arrow" style="padding-left:1rem">↓ (ML workloads)</span>
+    </div>
+    <div class="flow-line">
+      <span class="flow-step">Kubeflow Pipeline</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">MLflow Registry</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">Model Validation</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">Seldon Serving</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">Drift Monitor</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Achievements ===== -->
+<section id="achievements">
+  <p class="section-label">// impact</p>
+  <h2 class="section-title">Measurable Outcomes</h2>
+  <div class="section-divider"></div>
+
+  <div class="achievements-grid">
+
+    <div class="achievement-card">
+      <div class="achievement-metric">38%</div>
+      <div class="achievement-title">Compute Cost Reduction</div>
+      <div class="achievement-desc">Karpenter + Spot instance strategy on EKS, saving $25K+/month at scale.</div>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achievement-metric">4×</div>
+      <div class="achievement-title">Deployment Frequency</div>
+      <div class="achievement-desc">GitOps + shared CI/CD libraries reduced release cycles from weekly to multiple daily deploys.</div>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achievement-metric">65%</div>
+      <div class="achievement-title">MTTR Improvement</div>
+      <div class="achievement-desc">Centralized observability with actionable alerting and codified runbooks cut mean-time-to-recovery.</div>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achievement-metric">90%</div>
+      <div class="achievement-title">CVEs Blocked Pre-Production</div>
+      <div class="achievement-desc">Supply-chain security controls stopped critical vulnerabilities before they ever reached production.</div>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achievement-metric">30s</div>
+      <div class="achievement-title">Data Latency (from 4 hours)</div>
+      <div class="achievement-desc">Kafka-based streaming platform replaced overnight batch ETL with near-real-time data availability.</div>
+    </div>
+
+    <div class="achievement-card">
+      <div class="achievement-metric">99.95%</div>
+      <div class="achievement-title">Platform Uptime</div>
+      <div class="achievement-desc">Multi-AZ deployments, automated failover, and rigorous chaos testing maintain SLA commitments.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== Certifications ===== -->
+<section id="certifications">
+  <p class="section-label">// certifications</p>
+  <h2 class="section-title">Credentials</h2>
+  <div class="section-divider"></div>
+
+  <div class="certs-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon">☁️</div>
+      <div class="cert-name">AWS Solutions Architect</div>
+      <div class="cert-org">Amazon Web Services</div>
+      <div class="cert-badge">SAA-C03</div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">☸️</div>
+      <div class="cert-name">Certified Kubernetes Administrator</div>
+      <div class="cert-org">CNCF / Linux Foundation</div>
+      <div class="cert-badge">CKA</div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🔷</div>
+      <div class="cert-name">DevOps Engineer Expert</div>
+      <div class="cert-org">Microsoft Azure</div>
+      <div class="cert-badge">AZ-400</div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🐘</div>
+      <div class="cert-name">Data Engineer Certified</div>
+      <div class="cert-org">Cloudera</div>
+      <div class="cert-badge">CDE</div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">📡</div>
+      <div class="cert-name">Confluent Certified Developer</div>
+      <div class="cert-org">Confluent / Apache Kafka</div>
+      <div class="cert-badge">CCDAK</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== GitHub Repos ===== -->
+<section id="repos">
+  <p class="section-label">// open source</p>
+  <h2 class="section-title">GitHub Repositories</h2>
+  <div class="section-divider"></div>
+
+  <div class="repos-grid" id="repos-list">
+    <!-- Dynamically populated by script.js; falls back to static list -->
+    <div class="repo-card" style="grid-column:1/-1;justify-content:center;align-items:center;min-height:80px">
+      <span style="color:var(--text-muted);font-family:var(--font-mono);font-size:0.85rem">Loading repositories…</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact">
+  <p class="section-label">// contact</p>
+  <h2 class="section-title">Let's Build Something Together</h2>
+  <div class="section-divider"></div>
+
+  <div class="contact-grid">
+    <div class="contact-text">
+      <p>
+        I'm open to senior platform engineering, DevSecOps architecture, and MLOps consulting roles —
+        whether full-time, fractional, or advisory.
+      </p>
+      <p>
+        If you're solving interesting infrastructure problems at scale, I'd love to hear about it.
+        Reach out via any channel below.
+      </p>
+    </div>
+    <div class="contact-links">
+      <a class="contact-link" href="https://github.com/ramcreddy-ch" target="_blank" rel="noopener noreferrer">
+        <span class="contact-link-icon">🐙</span>
+        <span>
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value">github.com/ramcreddy-ch</span>
+        </span>
+      </a>
+      <a class="contact-link" href="https://www.linkedin.com/in/ramcreddy" target="_blank" rel="noopener noreferrer">
+        <span class="contact-link-icon">💼</span>
+        <span>
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-value">linkedin.com/in/ramcreddy</span>
+        </span>
+      </a>
+      <a class="contact-link" href="mailto:ramcreddy.ch@gmail.com">
+        <span class="contact-link-icon">✉️</span>
+        <span>
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-value">ramcreddy.ch@gmail.com</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <p>
+    Built with HTML + CSS + minimal JS &nbsp;·&nbsp;
+    <a href="https://github.com/ramcreddy-ch" target="_blank" rel="noopener noreferrer">@ramcreddy-ch</a>
+    &nbsp;·&nbsp; Deployed on GitHub Pages
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
